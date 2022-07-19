@@ -1,0 +1,100 @@
+.navbar-brand{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+#header{
+    background:#84b2ba;
+    padding: 0px;
+}
+
+#header.logo{
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+#header .logo a{
+    color: #fff;
+}
+
+.nav-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-menu > ul > li{
+    display: flex;
+}
+
+.nav-menu > ul > li{
+    position: relative;
+    white-space: nowrap;
+    padding: 10px 0px 10px 22px;
+}
+
+.nav-menu a{
+    display: block;
+    position: relative;
+    color: white;
+    transition: 0.3s;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    text-transform: uppercase;
+}
+
+
+
+
+footer{
+    background-color: rgb(76, 76, 76);
+    height: 50px;
+    color: white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#topbtn{
+    background-color: rgb(93, 144, 225);
+    border: double;
+    margin-left: 20px;
+}
+#topbtn:hover{
+    background-color: #1a17d7;
+}
+
+#conbtn{
+    background-color: rgb(93,144,225);
+    border: double;
+  }
+
+
+  #conbtn:hover{
+    background-color: #1a17d7;
+  }
+    
+    
+map-container-2{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative
+        
+    }
+.map-container-2 iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+      }
+      
